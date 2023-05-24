@@ -11,4 +11,4 @@ HTTP *
 #
 POST {{SONAR_URL}}/api/qualityprofiles/add_project?language={{SONAR_LANGUAGE}}&projectKey={{PROJECT_NAME}}&qualityProfile={{SONAR_PROFILE}}
 Authorization: Bearer {{SONAR_TOKEN}}
-HTTP 204
+HTTP *
