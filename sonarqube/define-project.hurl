@@ -2,7 +2,7 @@
 # Create a project on SonarQube
 # Ignore err400 if project exists
 #
-POST {{SONAR_URL}}/api/projects/create?name={{PROJECT_NAME}}&project{{PROJECT_NAME}}
+POST {{SONAR_URL}}/api/projects/create?name={{PROJECT_NAME}}&project={{PROJECT_NAME}}
 Authorization: Bearer {{SONAR_TOKEN}}
 HTTP *
 
