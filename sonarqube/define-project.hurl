@@ -9,6 +9,6 @@ HTTP *
 #
 # Add rules definition to project
 #
-POST {{SONAR_URL}}/api/qualityprofiles/add_project?language={{SONAR_LANGUAGE}}&projectKey={{PROJECT_NAME}}&qualityProfile={{SONAR_PROFILE}}
+POST {{SONAR_URL}}/api/qualityprofiles/add_project?language={{SONAR_LANGUAGE}}&porject={{PROJECT_NAME}}&qualityProfile={{SONAR_PROFILE}}
 Authorization: Bearer {{SONAR_TOKEN}}
-HTTP *
+HTTP 204
